@@ -243,6 +243,23 @@ header {
   justify-content: space-between;
   margin-top: 50px;
 }
+/* testimonials styles */
+.tesimonials_title {
+  text-align: center;
+  margin: 40px 200px 0;
+}
+.tesimonials {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 40px 200px 0;
+}
+.tesimonials > div {
+  border: 1px solid #ff900e;
+  margin: 5px 10px;
+  border-radius: 5px;
+  padding: 7px 12px;
+}
+
 /* footer design */
 footer {
   background: #fff4e7;
@@ -324,9 +341,17 @@ footer {
     flex-direction: column;
     align-items: center;
   }
-  .sponsors_logo img {
-    width: 75%;
-    margin-top: 20px;
+  .sponsors_logo > img {
+    width: 60%;
+    margin-top: 30px;
+  }
+  .tesimonials_title{
+    margin: 0;
+  }
+  .tesimonials {
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
   }
   footer {
     background: #fff4e7;
